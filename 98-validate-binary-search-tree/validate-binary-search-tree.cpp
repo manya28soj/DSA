@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-bool isBST(TreeNode* root, long long min, long long max){
+bool isBST(TreeNode* root, long min, long max){
     //base case
     if(root == NULL)
         return true;
